@@ -1,0 +1,17 @@
+####### Taining model  ####### 
+
+#Masks used:
+/home/bramirez/projects/PRIME-DE/UNet/manual_masks/aseg_attempt/OOPs-JMac-Lutein/TrainOOPsMsk
+
+#T1s used:
+//home/bramirez/projects/PRIME-DE/UNet/manual_masks/aseg_attempt/OOPs-JMac-Lutein/TrainOOPsT1w
+
+#with base "init" model: 
+~/projects/PRIME-DE/UNet/models/Ramirez6/model-39-epoch #i.e. 
+//home/bramirez/projects/PRIME-DE/UNet/models/Ramirez6/model-39-epoch
+
+#to train this model:
+/home/bramirez/projects/PRIME-DE/UNet/models/OOPs_3masks_v1/model-39-epoch
+
+/home/bramirez/projects/PRIME-DE/UNet/scripts/TrainUNet_command.sh /home/bramirez/projects/PRIME-DE/UNet/manual_masks/aseg_attempt/OOPs-JMac-Lutein/TrainOOPsT1w /home/bramirez/projects/PRIME-DE/UNet/manual_masks/aseg_attempt/OOPs-JMac-Lutein/TrainOOPsMsk /home/bramirez/projects/PRIME-DE/UNet/models/OOPs_3masks_v1 Ramirez6-model-39-epoch 
+

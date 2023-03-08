@@ -1,0 +1,5 @@
+.
+├── sub-001_ses-001_task-REST_acq-1_dir-AP_epi.json -> /projects/NHP_processed/developmental_in/sub-001/ses-001/fmap/sub-001_ses-001_task-REST_acq-1_dir-AP_epi.json
+└── sub-001_ses-001_task-REST_acq-1_dir-AP_epi.nii.gz -> /projects/NHP_processed/developmental_in/sub-001/ses-001/fmap/sub-001_ses-001_task-REST_acq-1_dir-AP_epi.nii.gz
+
+0 directories, 2 files

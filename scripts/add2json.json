@@ -1,0 +1,12 @@
+
+    "DwellTime": 1.5e-05,
+    "InPlanePhaseEncodingDirectionDICOM":"ROW",
+    "ImageOrientationPatientDICOM":[
+        -0.0542936,
+        0.991278,
+        -0.120081,
+        -0.165204,
+        -0.127519,
+        -0.977981
+    ]  
+}
