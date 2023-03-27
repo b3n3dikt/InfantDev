@@ -1,4 +1,4 @@
-Go through each func file identify if it has 16 volumes if it doesn move to fmap folder. 
+#Go through each func file identify if it has 16 volumes if it doesn move to fmap folder. 
 infopath=/home/bramirez/projects/InfantDevelopment/NKIdev/info
 scripts_path=/home/bramirez/projects/InfantDevelopment/NKIdev/scripts
 data_in=/projects/NHP_processed/developmental_in
