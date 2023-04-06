@@ -13,11 +13,6 @@ cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/all_sessions_temp.txt 
 /home/bramirez/projects/InfantDevelopment/NKIdev/info/all_sessions_testing.txt
 cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/all_sessions_testing.txt  | parallel -j 2 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-01_pipeline_command_first_pass_sub-001.sh'
 
-cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/failed_sessions.txt  | parallel -j 12 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-02_pipeline_command_second_pass_with_masks.sh'
-
-cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/failed_sessions_temp.txt  | parallel -j 3 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-02_pipeline_command_second_pass_with_masks.sh'
-
-
 cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/all_sessions.txt  | parallel -j 10 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-01_pipeline_command_first_pass_sub-001.sh'
 #chmod 777 /home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-01_pipeline_command_first_pass_sub-001.sh
 #/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-00_run_pipeline_wrapper.sh
