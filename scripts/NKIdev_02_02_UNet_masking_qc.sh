@@ -1,6 +1,7 @@
-#/home/projects/PRIME-DE/site-uwmadison/sub-1001/anat/
-#/home/bramirez/projects/PRIME-DE/UNet/site-uwmadison/sub-1001/anat
+#!/bin/bash 
 
+subject_list=$1
+#subject_list=/home/bramirez/projects/InfantDevelopment/NKIdev/info/subs_and_sessions.txt
 base_data=/projects/NHP_processed/developmental_out/
 base_out=/projects/NHP_processed/developmental_out/QC_images/
 imageout=/projects/NHP_processed/developmental_out/QC_images/mask_QC_images
@@ -28,6 +29,7 @@ do
   cp ${base_data}/${line}/files/masks/T1w_average.nii.gz ${scene_files}/example_files/T1w_image.nii.gz
   cp ${base_data}/${line}/files/masks/brain_mask.nii.gz ${scene_files}/example_files/T1w_image_mask.nii.gz
   fslmaths ${scene_files}/example_files/T1w_image.nii.gz -mas ${scene_files}/example_files/T1w_image_mask.nii.gz ${scene_files}/example_files/T1w_image_brain.nii.gz
+  
   flirt -dof 6 -in ${scene_files}/example_files/T1w_image_brain.nii.gz -ref ${scene_files}/example_files/MacaqueYerkes19_T1w_0.5mm_brain.nii.gz -omat ${scene_files}/example_files/brain2atlas.mat -out ${scene_files}/example_files/T1w_image_brain.nii.gz
   flirt -interp nearestneighbour -in ${scene_files}/example_files/T1w_image_mask.nii.gz -ref ${scene_files}/example_files/MacaqueYerkes19_T1w_0.5mm_brain.nii.gz -o ${scene_files}/example_files/T1w_image_mask.nii.gz -applyxfm -init ${scene_files}/example_files/brain2atlas.mat
   flirt -interp sinc -in ${scene_files}/example_files/T1w_image.nii.gz -ref ${scene_files}/example_files/MacaqueYerkes19_T1w_0.5mm.nii.gz -o ${scene_files}/example_files/T1w_image.nii.gz -applyxfm -init ${scene_files}/example_files/brain2atlas.mat
@@ -39,6 +41,6 @@ do
   wb_command -show-scene  -use-window-size ${scene_files}/checking_T1w_masks.scene 4 ${imageout}/${sub}_${sesh}_all_views_mask_qc.png 1000 800
   wb_command -show-scene  -use-window-size ${scene_files}/checking_T1w_masks.scene 5 ${imageout}/${sub}_${sesh}_all_views_wide_format_mask_qc.png 1000 800
 
-done < /home/bramirez/projects/InfantDevelopment/NKIdev/info/subs_and_sessions.txt
+done < ${subject_list}
 
 

@@ -1,10 +1,21 @@
 
-
+#https://linuxize.com/post/how-to-use-linux-screen/ 
+#screen #starts a screen
+# screen ctr ad #closes screen
+# screen -r tab tab # opens screen again
+# screen exit #closes screen for good
+#screen -S session_name
 #step 1, run initial part of pipeline to get T1w average
 cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/all_sessions.txt  | parallel -j 10 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-01_pipeline_command_first_pass_sub-001.sh'
 
 #the run UNet masking to get masks 
-/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_02_01_Unet_masking.sh
+#/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_02_01_Unet_masking.sh 
+/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_02_02_UNet_masking_qc.sh /home/bramirez/projects/InfantDevelopment/NKIdev/info/subs_and_sessions_temp.txt
+python /home/bramirez/projects/InfantDevelopment/NKIdev/scripts/generate_anat_processed_QC_html.py /home/bramirez/projects/InfantDevelopment/NKIdev/info/sub-XX_ses-XX_list.txt /projects/NHP_processed/developmental_out/QC_images/anat_processed_QC_images -o /projects/NHP_processed/developmental_out/QC_images/anat_processed_QC_images/QC_images.html
+
+/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/generate_anat_processed_QC_html.py
+/home/bramirez/projects/InfantDevelopment/NKIdev/info/sub-XX_ses-XX_list.txt
+
 
 #then rerun pipeline with correct masks 
 #cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/all_sessions.txt  | parallel -j 12 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-02_pipeline_command_second_pass_with_masks.sh'
@@ -15,7 +26,7 @@ cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/all_sessions_testing.t
 
 cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/failed_sessions.txt  | parallel -j 12 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-02_pipeline_command_second_pass_with_masks.sh'
 
-cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/failed_sessions_temp.txt  | parallel -j 3 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-02_pipeline_command_second_pass_with_masks.sh'
+cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/failed_sessions.txt  | parallel -j 15 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-02_pipeline_command_second_pass_with_masks.sh'
 
 
 cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/all_sessions.txt  | parallel -j 10 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-01_pipeline_command_first_pass_sub-001.sh'
