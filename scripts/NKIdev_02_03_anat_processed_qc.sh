@@ -1,4 +1,7 @@
+#!/bin/bash 
 
+subject_list=$1
+#subject_list=/home/bramirez/projects/InfantDevelopment/NKIdev/info/subs_and_sessions.txt
 base_data=/projects/NHP_processed/developmental_out/
 base_out=/projects/NHP_processed/developmental_out/QC_images/
 imageout=/projects/NHP_processed/developmental_out/QC_images/anat_processed_QC_images
@@ -61,7 +64,7 @@ do
   #wb_command -show-scene  -use-window-size ${scene_files}/Anat_QC_outputs.scene 5 ${imageout}/${sub}_${sesh}_05.png 1000 800
 
 
-done < /home/bramirez/projects/InfantDevelopment/NKIdev/info/subs_and_sessions.txt
+done < ${subject_list}
 
 
 
