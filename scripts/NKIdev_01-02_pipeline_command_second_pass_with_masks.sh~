@@ -33,9 +33,7 @@ PARCELLATIONS=/home/bramirez/code/ROI_sets/Surface_schemes/Monkey/
 sTEMPLATE_head=/atlases/J_Macaque_${TemplateAge}mo_atlas_nACQ_194x252x160space_0.5mm_head.nii.gz 
 sTEMPLATE_brain=/atlases/J_Macaque_${TemplateAge}mo_atlas_nACQ_194x252x160space_0.5mm_brain.nii.gz
 #INFANT_TEMPLATE=/ocean/projects/bio220042p/shared/singularity_images/nhp-abcd-bids-pipeline_acpc_modified/opt/pipeline/global/templates
-#JLC=JointLabelCouncil_all
-JLC=InfantJointLabelCouncil
-
+JLC=JointLabelCouncil_all
 MASK=/projects/NHP_processed/developmental_out/masks/anatomical
 
 #sub=$1
@@ -58,14 +56,14 @@ date >> ${OUTPUT}/proc_times/${subname}_${sesh}.txt
 
 
 
-echo "docker run -i --rm -v ${INPUT}:/input -v ${OUTPUT}:/output -v ${TEMPLATES}:/atlases -v ${PARCELLATIONS}:/opt/dcan-tools/dcan_bold_proc/templates/parcellations -v ${fMRIVolume}:/opt/pipeline/fMRIVolume -v ${MASK}:/masks -v /home/bramirez/pipelines/freesurfer/license.txt:/opt/freesurfer/license.txt dcanumn/nhp-abcd-bids-pipeline /input /output --participant-label ${subname} --session-id [ ${sesh} ] --ncpus ${cores} --t1-brain-mask /masks/sub-${subname}/ses-${sesh}/T1w_average_pre_mask.nii.gz --multi-template-dir /atlases/${JLC} --hyper-normalization-method ROI_IPS --max-cortical-thickness 15 --make-white-from-norm-t1 --freesurfer-license=/opt/freesurfer/license.txt " >> ${OUTPUT}/proc_times/${subname}_${sesh}.txt
+echo "docker run -i --rm -v ${INPUT}:/input -v ${OUTPUT}:/output -v ${TEMPLATES}:/atlases -v ${PARCELLATIONS}:/opt/dcan-tools/dcan_bold_proc/templates/parcellations -v ${fMRIVolume}:/opt/pipeline/fMRIVolume -v ${MASK}:/masks -v /home/bramirez/pipelines/freesurfer/license.txt:/opt/freesurfer/license.txt dcanumn/nhp-abcd-bids-pipeline /input /output --participant-label ${subname} --session-id [ ${sesh} ] --ncpus ${cores} --t1-brain-mask /masks/sub-${subname}/ses-${sesh}/T1w_average_pre_mask.nii.gz --multi-template-dir /atlases/${JLC} --hyper-normalization-method ROI_IPS --max-cortical-thickness 15 --freesurfer-license=/opt/freesurfer/license.txt " >> ${OUTPUT}/proc_times/${subname}_${sesh}.txt
 
 #sesh=20201015
 #cores=1
 #echo "DELETE THIS WHEN YOU HAVE ADDED THE PATHS TO THE NEWLY MADE ASEG FILES"
 #docker run -i --rm -v ${INPUT}:/input -v ${OUTPUT}:/output -v ${TEMPLATES}:/atlases -v ${PARCELLATIONS}:/opt/dcan-tools/dcan_bold_proc/templates/parcellations -v ${fMRIVolume}:/opt/pipeline/fMRIVolume -v ${PreFreeSurfer}:/opt/pipeline/PreFreeSurfer -v ${MASK}:/masks -v /home/bramirez/pipelines/freesurfer/license.txt:/opt/freesurfer/license.txt dcanumn/nhp-abcd-bids-pipeline /input /output --participant-label ${subname} --session-id [ ${sesh} ] --ncpus ${cores} --study-template ${sTEMPLATE_head} ${sTEMPLATE_brain}--t1-brain-mask /masks/sub-${subname}/ses-${sesh}/T1w_average_pre_mask.nii.gz --multi-template-dir /atlases/${JLC} --hyper-normalization-method ROI_IPS --max-cortical-thickness 15 --freesurfer-license=/opt/freesurfer/license.txt --stage PreFreeSurfer
 
-docker run -i --rm -v ${INPUT}:/input -v ${OUTPUT}:/output -v ${TEMPLATES}:/atlases -v ${PARCELLATIONS}:/opt/dcan-tools/dcan_bold_proc/templates/parcellations -v ${fMRIVolume}:/opt/pipeline/fMRIVolume -v ${PreFreeSurfer}:/opt/pipeline/PreFreeSurfer -v ${MASK}:/masks -v /home/bramirez/pipelines/freesurfer/license.txt:/opt/freesurfer/license.txt dcanumn/nhp-abcd-bids-pipeline /input /output --participant-label ${subname} --session-id [ ${sesh} ] --ncpus ${cores} --t1-brain-mask /masks/sub-${subname}/ses-${sesh}/T1w_average_pre_mask.nii.gz --multi-template-dir /atlases/${JLC} --hyper-normalization-method ROI_IPS --max-cortical-thickness 15 --make-white-from-norm-t1 --freesurfer-license=/opt/freesurfer/license.txt
+docker run -i --rm -v ${INPUT}:/input -v ${OUTPUT}:/output -v ${TEMPLATES}:/atlases -v ${PARCELLATIONS}:/opt/dcan-tools/dcan_bold_proc/templates/parcellations -v ${fMRIVolume}:/opt/pipeline/fMRIVolume -v ${PreFreeSurfer}:/opt/pipeline/PreFreeSurfer -v ${MASK}:/masks -v /home/bramirez/pipelines/freesurfer/license.txt:/opt/freesurfer/license.txt dcanumn/nhp-abcd-bids-pipeline /input /output --participant-label ${subname} --session-id [ ${sesh} ] --ncpus ${cores} --t1-brain-mask /masks/sub-${subname}/ses-${sesh}/T1w_average_pre_mask.nii.gz --multi-template-dir /atlases/${JLC} --hyper-normalization-method ROI_IPS --max-cortical-thickness 15 --freesurfer-license=/opt/freesurfer/license.txt
 #--print-commands-only
 
 #--stage FreeSurfer

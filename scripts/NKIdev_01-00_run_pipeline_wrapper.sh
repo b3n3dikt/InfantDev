@@ -26,12 +26,14 @@ cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/all_sessions_testing.t
 
 cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/failed_sessions.txt  | parallel -j 12 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-02_pipeline_command_second_pass_with_masks.sh'
 
-cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/failed_sessions.txt  | parallel -j 15 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-02_pipeline_command_second_pass_with_masks.sh'
+cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/rerunning_infant_with_InfantJLC_subs_and_sessions.txt | parallel -j 15 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-02_pipeline_command_second_pass_with_masks.sh'
 
 
 cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/all_sessions.txt  | parallel -j 10 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-01_pipeline_command_first_pass_sub-001.sh'
 #chmod 777 /home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-01_pipeline_command_first_pass_sub-001.sh
 #/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-00_run_pipeline_wrapper.sh
+
+cat /home/bramirez/projects/InfantDevelopment/NKIdev/info/failed_sessions.txt  | parallel -j 15 '/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/NKIdev_01-02_pipeline_command_second_pass_with_masks.sh'
 
 
 
