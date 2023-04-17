@@ -7,7 +7,7 @@ base_data=/projects/NHP_processed/developmental_out/
 
 
 #line=sub-001/ses-003
-
+TXw=T2w
 while read -r line
 do
   echo ${line}
@@ -16,10 +16,10 @@ do
   sub=`echo $line | cut -d '/' -f 1`
   echo $sub
 
-  mv ${data_in}/${line}/anat/${sub}_${sesh}_run-1_T1w.json ${data_in}/${line}/anat/temp.json
-  rm -rf ${data_in}/${line}/anat/${sub}_${sesh}_*_T1w.*
-  cp -r ${base_data}/${line}/files/masks/T1w_average.nii.gz ${data_in}/${line}/anat/${sub}_${sesh}_run-1_T1w.nii.gz
-  mv ${data_in}/${line}/anat/temp.json ${data_in}/${line}/anat/${sub}_${sesh}_run-1_T1w.json
+  mv ${data_in}/${line}/anat/${sub}_${sesh}_run-1_${TXw}.json ${data_in}/${line}/anat/temp.json
+  rm -rf ${data_in}/${line}/anat/${sub}_${sesh}_*_${TXw}.*
+  cp -r ${base_data}/${line}/files/masks/${TXw}_average.nii.gz ${data_in}/${line}/anat/${sub}_${sesh}_run-1_${TXw}.nii.gz
+  mv ${data_in}/${line}/anat/temp.json ${data_in}/${line}/anat/${sub}_${sesh}_run-1_${TXw}.json
   
 done < /home/bramirez/projects/InfantDevelopment/NKIdev/info/failed_sessions_subs_and_sessions.txt
 
