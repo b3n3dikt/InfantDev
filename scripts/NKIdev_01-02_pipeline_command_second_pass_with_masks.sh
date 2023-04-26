@@ -1,7 +1,7 @@
 fname=$1
 cores=1
 TemplateAge=4
-#fname=/projects/NHP_processed/developmental_in_modified/sub-003/ses-035
+fname=/projects/NHP_processed/developmental_in_modified/sub-003/ses-035
 fullsesh=`basename $fname`
 #sesh=`echo $fullsesh | cut -c5-`
 sesh=`echo $fullsesh | cut -d '-' -f 2-`

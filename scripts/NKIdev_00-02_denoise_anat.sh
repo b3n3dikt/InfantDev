@@ -63,6 +63,18 @@ done
 
 
 #scratch below
+
+
+N4BiasFieldCorrection \
+			-d 3 \
+			-i ${subject}_iso.nii.gz \
+			-s 4 \
+			-b [180] \
+			-c [50x50x50x50, 0.00001 ] \
+			-o [${subject}_b.nii.gz , ${subject}_BiasField.nii.gz] 
+			
+
+
 #Go through each func file identify if it has 16 volumes if it doesn move to fmap folder. 
 infopath=/home/bramirez/projects/InfantDevelopment/NKIdev/info
 scripts_path=/home/bramirez/projects/InfantDevelopment/NKIdev/scripts

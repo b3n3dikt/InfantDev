@@ -1,10 +1,11 @@
 #!/bin/bash 
 
 subject_list=$1
-subject_list=/home/bramirez/projects/InfantDevelopment/NKIdev/info/subs_and_sessions_temp.txt
+#subject_list=/home/bramirez/projects/InfantDevelopment/NKIdev/info/subs_and_sessions_temp.txt
+subject_list=/home/bramirez/projects/InfantDevelopment/NKIdev/info/rerunning_infant_with_InfantJLC_subs_and_sessions.txt
 base_data=/projects/NHP_processed/developmental_out/
 base_out=/projects/NHP_processed/developmental_out/QC_images/
-imageout=/projects/NHP_processed/developmental_out/QC_images/anat_processed_QC_images_t2
+imageout=/projects/NHP_processed/developmental_out/QC_images/anat_processed_QC_images_20230421
 scene_files=/projects/NHP_processed/developmental_out/QC_images/scene_files/
 
 if [ ! -d ${imageout} ]; then
