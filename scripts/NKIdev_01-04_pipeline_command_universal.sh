@@ -194,9 +194,9 @@ date >> ${OUTPUT}/proc_times/${subname}_${sesh}.txt
 #   cmd+=" -v ${PreFreeSurfer}:/opt/pipeline/PreFreeSurfer"
 # fi
 
-if [ ! -z "$MASK" ]; then
-   cmd+=" -v ${MASK}:/masks"
-fi
+#if [ ! -z "$MASK" ]; then
+#   cmd+=" -v ${MASK}:/masks"
+#fi
 
 # cmd+=" -v /home/bramirez/pipelines/freesurfer/license.txt:/opt/freesurfer/license.txt dcanumn/nhp-abcd-bids-pipeline /input /output --participant-label ${subname} --session-id [ ${sesh} ] --ncpus ${cores}"
 

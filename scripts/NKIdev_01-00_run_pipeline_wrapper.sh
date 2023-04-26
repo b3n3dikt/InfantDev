@@ -18,7 +18,10 @@ pcores=3
 dcores=1
 INPUT=/projects/NHP_processed/developmental_in_modified
 OUTPUT=/projects/NHP_processed/developmental_out
-PreFreeSurfer=/home/bramirez/pipelines/dcan-macaque-pipeline-jsbr/PreFreeSurfer
+#if you want to use biasfieldcorrection use 
+PreFreeSurfer=/home/bramirez/pipelines/dcan-macaque-pipeline-jsbr/modified_stages/PreFreeSurfer
+#else use 
+#PreFreeSurfer=/home/bramirez/pipelines/dcan-macaque-pipeline-jsbr/PreFreeSurfer
 fMRIVolume=/home/bramirez/pipelines/dcan-macaque-pipeline-jsbr/fMRIVolume
 LICENSE=/home/bramirez/pipelines/freesurfer/license.txt
 TEMPLATES=/home/bramirez/projects/ROI_sets/templates_all/

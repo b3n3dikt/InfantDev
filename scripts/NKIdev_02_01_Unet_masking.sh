@@ -2,11 +2,12 @@
 processed_folder=/projects/NHP_processed/developmental_out/
 mask_folder=/projects/NHP_processed/developmental_out/masks/anatomical/
 UNet_models=/home/bramirez/projects/InfantDevelopment/NKIdev/files/UNet/models
-model=OOPs4_Petra1-Milo1_model-39-epoch
+#/home/bramirez/projects/InfantDevelopment/NKIdev/files/UNet/models/Model_adding_sub-001_sub-003
+model=Model_adding_sub-001_sub-003_model-19-epoch
 if [ ! -d ${mask_folder} ]; then
   mkdir -p ${mask_folder};
 fi
-sleep 24h 
+#sleep 24h 
 while read -r fname
 do
   #fname=sub-001/ses-002
@@ -18,9 +19,8 @@ do
   fi
   if [ -f ${mask_folder}/${fname}/T1w_average_pre_mask.nii.gz ]; then
     echo "${mask_folder}/${fname}/T1w_average_pre_mask.nii.gz exists already, deleting"
-    rm -rf ${mask_folder}/${fname}/T1w_average_pre_mask.nii.gz
+    mv ${mask_folder}/${fname}/T1w_average_pre_mask.nii.gz ${mask_folder}/${fname}/T1w_average_pre_mask_firstattempt.nii.gz
   fi
-  
   
   docker run \
   -v ${processed_folder}/${fname}/files/masks/:/input \
@@ -33,6 +33,22 @@ do
   -out /output
   
 done < /home/bramirez/projects/InfantDevelopment/NKIdev/info/subs_and_sessions.txt
+
+
+
+
+docker run \
+           -v /home2/bramirez/projects/InfantDevelopment/NKIdev/files/UNet/Training/T1w:/TrainT1w \
+           -v /home2/bramirez/projects/InfantDevelopment/NKIdev/files/UNet/Training/masks:/TrainMsk \
+           -v /home2/bramirez/projects/InfantDevelopment/NKIdev/files/UNet/models/Model_adding_sub-001_sub-003/:/Results \
+           sandywangrest/deepbet \
+           trainSs_UNet.py \
+               -trt1w /TrainT1w \
+               -trmsk /TrainMsk \
+               -out /Results \
+               -init /Results/OOPs4_Petra1-Milo1_model-39-epoch
+
+
 
 # #mkdir -p ${mask_folder}
 # /projects/NHP_processed/developmental_out/masks/anatomical/

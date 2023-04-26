@@ -1,3 +1,17 @@
+sub-001/ses-001
+sub-001/ses-002
+sub-001/ses-003
+sub-001/ses-004
+sub-001/ses-005
+sub-001/ses-006
+sub-001/ses-007
+sub-002/ses-001
+sub-002/ses-002
+sub-002/ses-003
+sub-002/ses-004
+sub-002/ses-005
+sub-002/ses-006
+sub-002/ses-007
 sub-003/ses-001
 sub-003/ses-002
 sub-003/ses-003

@@ -30,3 +30,187 @@ Processing subject: sub-003/ses-007 using template head: /home/bramirez/projects
  New attempt on 2023-04-17_13-51-57 
  
 Processing subject: sub-infantAtlas/ses-2weeksT1 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-17_13-51-57 
+ 
+ New attempt on 2023-04-20_21-08-38 
+ 
+ 
+Processing subject: sub-001/ses-001 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-08-38 
+ New attempt on 2023-04-20_21-08-38 
+ 
+Processing subject: sub-001/ses-002 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-08-38 
+ 
+ New attempt on 2023-04-20_21-08-38 
+ 
+ 
+ New attempt on 2023-04-20_21-08-38 
+Processing subject: sub-001/ses-003 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-08-38 
+ 
+Processing subject: sub-001/ses-004 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-08-38 
+ 
+ New attempt on 2023-04-20_21-08-38 
+ 
+Processing subject: sub-001/ses-005 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-08-38 
+ 
+ New attempt on 2023-04-20_21-08-38 
+ 
+Processing subject: sub-001/ses-006 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-08-38 
+ 
+ New attempt on 2023-04-20_21-08-38 
+ 
+Processing subject: sub-001/ses-007 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-08-38 
+ 
+ New attempt on 2023-04-20_21-08-38 
+ 
+Processing subject: sub-002/ses-001 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-08-38 
+ 
+ 
+ New attempt on 2023-04-20_21-10-26 
+ New attempt on 2023-04-20_21-10-26 
+ 
+ 
+Processing subject: sub-002/ses-002 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-10-26 
+Processing subject: sub-002/ses-003 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-10-26 
+ 
+ New attempt on 2023-04-20_21-10-29 
+ 
+Processing subject: sub-002/ses-004 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-10-29 
+ 
+ New attempt on 2023-04-20_21-10-35 
+ 
+Processing subject: sub-002/ses-005 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-10-35 
+ 
+ New attempt on 2023-04-20_21-10-37 
+ 
+Processing subject: sub-002/ses-006 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-10-37 
+ 
+ New attempt on 2023-04-20_21-10-42 
+ 
+ 
+Processing subject: sub-002/ses-007 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-10-42 
+ New attempt on 2023-04-20_21-10-42 
+ 
+Processing subject: sub-003/ses-001 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-10-42 
+ 
+ New attempt on 2023-04-20_21-10-48 
+ 
+Processing subject: sub-003/ses-002 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-10-48 
+ 
+ New attempt on 2023-04-20_21-11-07 
+ 
+Processing subject: sub-003/ses-003 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-11-07 
+ 
+ New attempt on 2023-04-20_21-11-10 
+ 
+Processing subject: sub-003/ses-004 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-11-10 
+ 
+ New attempt on 2023-04-20_21-11-17 
+ 
+Processing subject: sub-003/ses-005 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-11-17 
+ 
+ New attempt on 2023-04-20_21-11-20 
+ 
+Processing subject: sub-003/ses-006 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-11-20 
+ 
+ New attempt on 2023-04-20_21-11-20 
+ 
+Processing subject: sub-003/ses-007 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-11-20 
+ 
+ New attempt on 2023-04-20_21-11-22 
+ 
+Processing subject: sub-infantAtlas/ses-2weeksT1 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-20_21-11-22 
+ 
+ New attempt on 2023-04-21_14-01-37 
+ 
+Processing subject: sub-infantAtlas/ses-2weeksT1 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-21_14-01-37 
+ 
+ New attempt on 2023-04-24_14-01-54 
+ 
+Processing subject: sub-infantAtlas/ses-2weeksT1 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-24_14-01-54 
+ 
+ New attempt on 2023-04-25_11-40-30 
+ 
+Processing subject: sub-001/ses-001 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-40-30 
+ 
+ New attempt on 2023-04-25_11-40-30 
+ 
+Processing subject: sub-001/ses-002 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-40-30 
+ 
+ New attempt on 2023-04-25_11-40-53 
+ 
+Processing subject: sub-001/ses-003 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-40-53 
+ 
+ New attempt on 2023-04-25_11-40-54 
+ 
+Processing subject: sub-001/ses-004 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-40-54 
+ 
+ New attempt on 2023-04-25_11-41-16 
+ 
+Processing subject: sub-001/ses-005 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-41-16 
+ 
+ New attempt on 2023-04-25_11-41-18 
+ 
+Processing subject: sub-001/ses-006 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-41-18 
+ 
+ New attempt on 2023-04-25_11-41-38 
+ 
+Processing subject: sub-001/ses-007 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-41-38 
+ 
+ New attempt on 2023-04-25_11-41-39 
+ 
+Processing subject: sub-002/ses-001 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-41-39 
+ 
+ New attempt on 2023-04-25_11-42-02 
+ 
+Processing subject: sub-002/ses-002 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-42-02 
+ 
+ New attempt on 2023-04-25_11-42-03 
+ 
+Processing subject: sub-002/ses-003 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-42-03 
+ 
+ New attempt on 2023-04-25_11-42-24 
+ 
+Processing subject: sub-002/ses-004 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-42-24 
+ 
+ New attempt on 2023-04-25_11-42-26 
+ 
+Processing subject: sub-002/ses-005 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-42-26 
+ 
+ New attempt on 2023-04-25_11-42-47 
+ 
+Processing subject: sub-002/ses-006 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-42-47 
+ 
+ New attempt on 2023-04-25_11-42-48 
+ 
+Processing subject: sub-002/ses-007 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-42-48 
+ 
+ New attempt on 2023-04-25_11-43-10 
+ 
+Processing subject: sub-003/ses-001 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-43-10 
+ 
+ New attempt on 2023-04-25_11-43-11 
+ 
+Processing subject: sub-003/ses-002 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-43-11 
+ 
+ New attempt on 2023-04-25_11-43-32 
+ 
+Processing subject: sub-003/ses-003 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-43-32 
+ 
+ New attempt on 2023-04-25_11-43-33 
+ 
+Processing subject: sub-003/ses-004 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-43-33 
+ 
+ New attempt on 2023-04-25_11-43-47 
+ 
+Processing subject: sub-003/ses-005 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-43-47 
+ 
+ New attempt on 2023-04-25_11-43-48 
+ 
+Processing subject: sub-003/ses-006 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-43-48 
+ 
+ New attempt on 2023-04-25_11-44-02 
+ 
+Processing subject: sub-003/ses-007 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-44-02 
+ 
+ New attempt on 2023-04-25_11-44-03 
+ 
+Processing subject: sub-infantAtlas/ses-2weeksT1 using template head: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore.nii.gz and template brain: /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_brain.nii.gz and /home/bramirez/projects/ROI_sets/templates_all/Infant_templates/sub-OOPS_ses-20190509_T1w_acpc_dc_restore_aseg.nii.gz from /projects/NHP_processed/developmental_out/ in /projects/NHP_processed/developmental_out/masks/anatomical/ on 2023-04-25_11-44-03 

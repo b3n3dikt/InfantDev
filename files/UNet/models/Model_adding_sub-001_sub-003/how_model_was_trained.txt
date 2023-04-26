@@ -1,0 +1,53 @@
+####### Taining model  ####### 
+
+
+# manually fixed up the masks for sub-001/ses-001 sub-001/ses-004 sub-003/ses-001 sub-003/ses-004 to add to the model that had 4 masks from sub-002 and one mask from sub-001 and sub-003 to have more of those masks in the model. I stopped it during iteration model-20-epoch because it was using too many resources for the server, so using model-19-epoch which I copied to the models folder one directory up calling it Model_adding_sub-001_sub-003_model-19-epoch.
+
+Training the model. 
+docker run \
+           -v /home2/bramirez/projects/InfantDevelopment/NKIdev/files/UNet/Training/T1w:/TrainT1w \
+           -v /home2/bramirez/projects/InfantDevelopment/NKIdev/files/UNet/Training/masks:/TrainMsk \
+           -v /home2/bramirez/projects/InfantDevelopment/NKIdev/files/UNet/models/Model_adding_sub-001_sub-003/:/Results \
+           sandywangrest/deepbet \
+           trainSs_UNet.py \
+               -trt1w /TrainT1w \
+               -trmsk /TrainMsk \
+               -out /Results \
+               -init /Results/OOPs4_Petra1-Milo1_model-39-epoch
+
+
+processed_folder=/projects/NHP_processed/developmental_out/
+mask_folder=/projects/NHP_processed/developmental_out/masks/anatomical/
+UNet_models=/home/bramirez/projects/InfantDevelopment/NKIdev/files/UNet/models
+#/home/bramirez/projects/InfantDevelopment/NKIdev/files/UNet/models/Model_adding_sub-001_sub-003
+model=Model_adding_sub-001_sub-003_model-19-epoch
+if [ ! -d ${mask_folder} ]; then
+  mkdir -p ${mask_folder};
+fi
+#sleep 24h 
+while read -r fname
+do
+  #fname=sub-001/ses-002
+  sub=`echo ${fname} | cut -d'/' -f $(($(echo ${fname} | awk -F'/' '{print NF}')-1))`
+  ses=`echo ${fname} | cut -d'/' -f $(($(echo ${fname} | awk -F'/' '{print NF}')))`
+  
+  if [ ! -d ${mask_folder}/${fname} ]; then
+    mkdir -p ${mask_folder}/${fname};
+  fi
+  if [ -f ${mask_folder}/${fname}/T1w_average_pre_mask.nii.gz ]; then
+    echo "${mask_folder}/${fname}/T1w_average_pre_mask.nii.gz exists already, deleting"
+    mv ${mask_folder}/${fname}/T1w_average_pre_mask.nii.gz ${mask_folder}/${fname}/T1w_average_pre_mask_firstattempt.nii.gz
+  fi
+  
+  docker run \
+  -v ${processed_folder}/${fname}/files/masks/:/input \
+  -v ${mask_folder}/${fname}/:/output \
+  -v ${UNet_models}/:/models \
+  sandywangrest/deepbet \
+  muSkullStrip.py \
+  -in /input/T1w_average.nii.gz \
+  -model /models/${model} \
+  -out /output
+  
+done < /home/bramirez/projects/InfantDevelopment/NKIdev/info/subs_and_sessions.txt
+
