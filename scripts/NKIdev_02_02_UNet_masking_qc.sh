@@ -1,14 +1,23 @@
 #!/bin/bash 
 
 subject_list=$1
-#subject_list=/home/bramirez/projects/InfantDevelopment/NKIdev/info/subs_and_sessions.txt
+subject_list=/home/bramirez/projects/InfantDevelopment/NKIdev/info/subs_and_sessions.txt
 base_data=/projects/NHP_processed/developmental_out/
 base_out=/projects/NHP_processed/developmental_out/QC_images/
-imageout=/projects/NHP_processed/developmental_out/QC_images/mask_QC_images_v2
+imageout=/projects/NHP_processed/developmental_out/QC_images/mask_QC_images
+old_attempts=/projects/NHP_processed/developmental_out/QC_images/old_attempts
 scene_files=/projects/NHP_processed/developmental_out/QC_images/scene_files/
+scripts=/home/bramirez/projects/InfantDevelopment/NKIdev/scripts/
 
 if [ ! -d ${imageout} ]; then
   mkdir -p ${imageout};
+else
+  var=`date +"%FORMAT_STRING"`
+  now=`date +"%T_%m_%d_%Y"`
+  now=`date +"%Y-%m-%d-%H%M"`
+  echo "${now}"
+  imageout_dir=`basename ${imageout}`
+  mv ${imageout} ${old_attempts}/${imageout_dir}_${now}
 fi
 #processed_folder=/projects/NHP_processed/developmental_out/
 #mask_folder=/projects/NHP_processed/developmental_out/masks/anatomical/
@@ -40,7 +49,14 @@ do
   #convert -append ${imageout}/ax.png ${imageout}/sag.png ${imageout}/cor.png ${imageout}/${sub}_${sesh}_mask_qc.png
   wb_command -show-scene  -use-window-size ${scene_files}/checking_T1w_masks.scene 4 ${imageout}/${sub}_${sesh}_all_views_mask_qc.png 1000 800
   wb_command -show-scene  -use-window-size ${scene_files}/checking_T1w_masks.scene 5 ${imageout}/${sub}_${sesh}_all_views_wide_format_mask_qc.png 1000 800
-
+  wb_command -show-scene  -use-window-size ${scene_files}/checking_T1w_masks.scene 6 ${imageout}/${sub}_${sesh}_Sagittal_all_slices_mask_qc.png 1000 800
+  wb_command -show-scene  -use-window-size ${scene_files}/checking_T1w_masks.scene 7 ${imageout}/${sub}_${sesh}_Coronal_all_slices_mask_qc.png 1000 800
+  wb_command -show-scene  -use-window-size ${scene_files}/checking_T1w_masks.scene 8 ${imageout}/${sub}_${sesh}_Axial_all_slices_mask_qc.png 1000 800
 done < ${subject_list}
 
+python3 ${scripts}/create_brain_images_qc_html.py ${imageout} all_views_mask_qc.png
+python3 ${scripts}/create_brain_images_qc_html.py ${imageout} all_views_wide_format_mask_qc.png
+python3 ${scripts}/create_brain_images_qc_html.py ${imageout} Axial_all_slices_mask_qc.png
+python3 ${scripts}/create_brain_images_qc_html.py ${imageout} Coronal_all_slices_mask_qc.png
+python3 ${scripts}/create_brain_images_qc_html.py ${imageout} Sagittal_all_slices_mask_qc.png
 
